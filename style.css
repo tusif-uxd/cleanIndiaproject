@@ -1,0 +1,86 @@
+* {
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+.upper-head {
+  background-color: rgb(246, 246, 246);
+  width: 100vw;
+  height: 80vh;
+  overflow-y: hidden;
+}
+
+.upper-head span img {
+  width: 4vw;
+  position: relative;
+  top: 60px;
+  left: 40px;
+}
+
+.upper-text1 {
+  position: relative;
+  top: 40vh;
+  left: 5vw;
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+.upper-text1 img {
+  width: 3vw;
+  margin-right: 5px;
+}
+
+.upper-text2 {
+  position: relative;
+  top: 43vh;
+  left: 5vw;
+  font-size: 20px;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.upper-text2 img {
+  width: 3vw;
+  margin-right: 5px;
+}
+
+.upper-head-bg-img {
+  /* overflow: hidden; */
+  width: 100vw;
+  height: 70vh;
+}
+
+.upper-head-bg-img img {
+  /* width: 50vw; */
+  /* height: 25vh; */
+  /* position: relative; */
+  /* left: 45vw; */
+}
+
+.head-bg1 {
+  position: relative;
+  left: 40vw;
+  top: 10vh;
+}
+
+.head-bg2 {
+  position: relative;
+  left: 30vw;
+  top: 20vh;
+  z-index: 1;
+}
+
+.head-bg3 {
+  position: relative;
+  left: 5vw;
+  /* bottom: 20vh; */
+}
+
+
+.middle-background {
+  /* background-color: red; */
+  width: 100vw;
+  height: 70vh;
+  background-image: url("middle.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

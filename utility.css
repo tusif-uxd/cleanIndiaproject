@@ -1,0 +1,10 @@
+.left {
+  position: relative;
+  left: 60px;
+  font-weight: 400;
+}
+
+.upper-text-2-left {
+  position: relative;
+  left: 52px;
+}
