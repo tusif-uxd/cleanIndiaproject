@@ -86,7 +86,7 @@
   /* background-color: red; */
   width: 100vw;
   height: 70vh;
-  background-image: url("middle.png");
+  background-image: url("img/middle.png");
   background-size: cover;
   background-repeat: no-repeat;
 }
@@ -168,7 +168,7 @@
 .process-box {
   width: 100vw;
   height: 60vh;
-  background-image: url("middle.png");
+  background-image: url("img/middle.png");
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -302,7 +302,7 @@
 }
 
 .last-image-section {
-  background-image: url("last.png");
+  background-image: url("img/last.png");
   width: 100vw;
   height: 60vh;
   background-repeat: no-repeat;
@@ -329,7 +329,54 @@
 }
 
 footer {
+  display: flex;
+  align-items: center;
   width: 100vw;
   height: 30vh;
   background-color: rgb(6, 44, 160);
+  color: white;
+  overflow-y: hidden;
+}
+
+.section1 div {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-right: 10rem;
+  margin-left: 5rem;
+}
+
+.section2 div {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-right: 10rem;
+}
+
+.section3 div {
+  font-size: 1.3rem;
+  line-height: 1.5;
+}
+
+.section4 {
+  margin-top: 10rem;
+  font-size: 1.3rem;
+  margin-left: 15rem;
+  margin-bottom: 10rem;
+}
+.bold-head {
+  font-weight: bold;
+  line-height: 1.4;
+}
+
+.social-logo img {
+  margin: 10px;
+}
+
+.copyright {
+  text-align: center;
+  padding: 0.6rem;
+  font-weight: 500;
+}
+
+.social-logo {
+  margin-top: 2rem;
 }
