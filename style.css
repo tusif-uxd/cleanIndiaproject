@@ -10,7 +10,7 @@
 .upper-head {
   background-color: rgb(246, 246, 246);
   width: 100vw;
-  height: 80vh;
+  min-height: 80vh;
   overflow-y: hidden;
 }
 
@@ -53,7 +53,7 @@
 .upper-head-bg-img {
   /* overflow: hidden; */
   width: 100vw;
-  height: 70vh;
+  min-height: 70vh;
 }
 
 /* .upper-head-bg-img img {
@@ -92,7 +92,7 @@
 }
 
 .middle-info {
-  height: 80vh;
+  min-height: 80vh;
 }
 .middle-info h1 {
   text-align: center;
@@ -123,7 +123,7 @@
   width: 20vw;
   position: absolute;
   left: 5rem;
-  top: 125rem;
+  top: 127rem;
   margin-bottom: 10px;
 }
 
@@ -167,7 +167,7 @@
 
 .process-box {
   width: 100vw;
-  height: 60vh;
+  min-height: 60vh;
   background-image: url("img/middle.png");
   background-repeat: no-repeat;
   background-size: cover;
@@ -175,7 +175,7 @@
 
 .blur-background {
   width: 100vw;
-  height: 60vh;
+  min-height: 60vh;
   background-color: rgba(0, 0, 0, 0.644);
 }
 
@@ -201,7 +201,7 @@
   z-index: 1;
   display: inline-block;
   width: 15vw;
-  height: 30vh;
+  min-height: 30vh;
   background-color: white;
   margin: 0 10px;
   border-radius: 20px;
@@ -248,7 +248,7 @@
 }
 
 .first-section-info {
-  width: 80vw;
+  width: 78vw;
   font-size: 1.8rem;
   margin-left: 4.9rem;
   margin-top: 1.5rem;
@@ -277,12 +277,12 @@
   font-size: 2rem;
   font-weight: bold;
   color: gray;
+  margin-right: 2rem;
 }
 
 .second-number-span2 {
   font-size: 2rem;
   font-weight: bold;
-  margin-left: 2rem;
 }
 
 .second-section-info {
@@ -303,8 +303,8 @@
 
 .last-image-section {
   background-image: url("img/last.png");
-  width: 100vw;
-  height: 60vh;
+  /* width: 100vw; */
+  min-height: 60vh;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -332,7 +332,7 @@ footer {
   display: flex;
   align-items: center;
   width: 100vw;
-  height: 30vh;
+  min-height: 30vh;
   background-color: rgb(6, 44, 160);
   color: white;
   overflow-y: hidden;
@@ -379,4 +379,183 @@ footer {
 
 .social-logo {
   margin-top: 2rem;
+}
+
+@media only screen and (max-width: 800px) {
+  .upper-head span img {
+    width: 10vw;
+  }
+
+  .upper-text1 {
+    top: 11vh;
+  }
+
+  .upper-text1 img {
+    display: none;
+  }
+
+  .upper-text2 {
+    top: 18vh;
+  }
+
+  .upper-text2 img {
+    display: none;
+  }
+
+  .upper-head-bg-img {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20vh;
+  }
+
+  .upper-head-bg-img img {
+    position: static;
+  }
+
+  .middle-background {
+    display: none;
+  }
+
+  .middle-info h1 {
+    font-size: 1.2rem;
+  }
+
+  .middle-info p {
+    font-size: 1.3rem;
+    height: 39vh;
+    padding: 0rem;
+    width: 86vw;
+    text-align: justify;
+  }
+
+  .bg-doctor {
+    display: none;
+  }
+
+  .about-text1 {
+    position: static;
+    margin-left: 1rem;
+  }
+  .about-text2 {
+    width: 80vw;
+    left: 1rem;
+    top: 115rem;
+  }
+
+  .about-text1 div {
+    font-size: 1rem;
+  }
+
+  .about-text2 div {
+    font-size: 1rem;
+  }
+  .row-belt {
+    display: none;
+  }
+
+  .four-box {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .boxes {
+    width: 69vw;
+    height: 25vh;
+    margin: 20px 0;
+  }
+
+  .first-text-section {
+    margin-left: 1rem;
+  }
+
+  .description-section h1 {
+    font-size: 2rem;
+  }
+
+  .description-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .number-span1 {
+    font-size: 1.8rem;
+  }
+
+  .number-span2 {
+    font-size: 1.3rem;
+  }
+
+  .first-section-info {
+    font-size: 1.3rem;
+    text-align: left;
+    width: auto;
+  }
+
+  .second-section-info {
+    font-size: 1.3rem;
+    text-align: left;
+    width: auto;
+  }
+
+  .second-text-section {
+    margin-left: 1rem;
+  }
+
+  .second-number-span1 {
+    font-size: 1.8rem;
+  }
+
+  .second-number-span2 {
+    font-size: 1.2rem;
+  }
+
+  .text-align {
+    font-size: 0.8rem;
+  }
+
+  .tech-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .tech-stack-box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section1 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .section2 {
+    margin-left: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .section3 {
+    margin-left: -5rem;
+  }
+
+  .section4 {
+    margin-left: 0rem;
+  }
+  .bold-head {
+    margin-bottom: 1rem;
+  }
+
+  .last-image-section {
+    background-size: contain;
+  }
 }
